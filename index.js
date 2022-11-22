@@ -1,3 +1,10 @@
+/*
+ * @Author: v_polixiong v_polixiong@tencent.com
+ * @Date: 2022-11-22 15:12:52
+ * @LastEditors: v_polixiong v_polixiong@tencent.com
+ * @LastEditTime: 2022-11-22 15:13:11
+ * @Description: 
+ */
 /**
  * 模块化(一般用于服务器端Node.js)
  * 1.引入模板
@@ -16,6 +23,7 @@
  * 作用:负责将其他js模块引入,汇总在一起
  *      这样只要使用主模块,其他的模块都能一起加载
  * 模块内部的数据对外都是私有的,需要暴露出去,才能使用
+ * 测试的的的的
  *
  */
 let add = require('./add');
